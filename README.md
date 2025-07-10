@@ -22,5 +22,3 @@ This repository contains a proof-of-concept pipeline that:
 ```bash
 git clone https://github.com/drbroderickcrawford/astrocytoma-hybrid.git
 cd astrocytoma-hybrid
-
-
