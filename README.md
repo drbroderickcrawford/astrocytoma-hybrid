@@ -24,12 +24,6 @@ git clone https://github.com/drbroderickcrawford/astrocytoma-hybrid.git
 cd astrocytoma-hybrid
 ### 2. Create your environment
 
-**Using conda:**
-
-```bash
-conda env create -f environment.yml
-conda activate astro-project
-
 
 ### 3. Download Data
 
@@ -42,6 +36,7 @@ conda activate astro-project
   2. Download astrocytoma MRI cases and associated clinical metadata.
 
 See `data/README.md` for detailed steps.
+
 
 
 
