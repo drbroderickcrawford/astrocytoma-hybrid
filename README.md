@@ -30,3 +30,18 @@ cd astrocytoma-hybrid
 conda env create -f environment.yml
 conda activate astro-project
 
+
+### 3. Download Data
+
+- **BraTS-Paed** (public pediatric glioma MRI)  
+  1. Sign up at [BraTS on Kaggle](https://www.kaggle.com/c/brats-20).  
+  2. Download the training images and segmentations.  
+  3. Convert to NIfTI if needed (e.g., via `dcm2niix`).  
+- **CBTTC** (Children’s Brain Tumor Tissue Consortium)  
+  1. Register for free on the [CBTTC Data Portal](https://portal.cbttc.org).  
+  2. Download astrocytoma MRI cases and associated clinical metadata.
+
+See `data/README.md` for detailed steps.
+
+
+
