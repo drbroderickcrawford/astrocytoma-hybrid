@@ -22,3 +22,11 @@ This repository contains a proof-of-concept pipeline that:
 ```bash
 git clone https://github.com/drbroderickcrawford/astrocytoma-hybrid.git
 cd astrocytoma-hybrid
+### 2. Create your environment
+
+**Using conda:**
+
+```bash
+conda env create -f environment.yml
+conda activate astro-project
+
